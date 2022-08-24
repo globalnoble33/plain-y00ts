@@ -1682,6 +1682,10 @@ select {
   max-width: 42rem;
 }
 
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -2463,6 +2467,10 @@ select {
     flex-direction: row;
   }
 
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .md\:items-center {
     align-items: center;
   }
@@ -2828,6 +2836,11 @@ select {
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pb-0 {
